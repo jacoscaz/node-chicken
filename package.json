@@ -1,0 +1,15 @@
+{
+  "name": "node-chicken",
+  "bin": {
+    "chicken" : "./bin/chicken.js"
+  },
+  "version": "1.0.0",
+  "description": "Plays the recording of a rubber chicken.",
+  "main": "index.js",
+  "author": "Jacopo Scazzosi <me@jacoscaz.com>",
+  "license": "WTFPL",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "play-sound": "^1.1.1"
+  }
+}
