@@ -2,7 +2,7 @@
 
 'use strict';
 
-let chicken = require('./');
+let chicken = require('../');
 
 chicken.play()
   .then(() => {console.log('CHICKEN!');})
